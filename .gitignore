@@ -2,3 +2,12 @@ snyk2021/results/*
 snyk2021/output/*
 snyk2021/red-light-green-light.wav
 snyk2021/*.gif
+
+
+*/__MACOSX/*
+*.AppImage
+*.wav
+*.pcap
+.DS_Store
+*bzImage
+*.pyc
