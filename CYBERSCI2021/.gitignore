@@ -1,4 +1,4 @@
-log4j-shell-poc/*
+log4j-shell-poc/
 .gdb_history
 cybersci.ovpn
 peda-session*
