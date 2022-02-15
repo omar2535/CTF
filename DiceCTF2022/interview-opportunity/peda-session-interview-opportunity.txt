@@ -1,0 +1,9 @@
+break *main+100
+
+
+
+
+set exec-wrapper env 'LD_PRELOAD=./libc.so.6'
+
+set exec-wrapper env 'LD_PRELOAD=/home/omar2535/Desktop/programming/CTF/DiceCTF2022/interview-opportunity/libc.so.6'
+

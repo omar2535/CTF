@@ -1,0 +1,1 @@
+(exec -a /private/echo_flag /usr/bin/echo_flag)

