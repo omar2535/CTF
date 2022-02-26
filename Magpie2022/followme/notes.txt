@@ -1,0 +1,2 @@
+ssh magpie@18.222.120.4 -p 49476
+keyissecret
