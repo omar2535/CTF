@@ -2,7 +2,7 @@ from pwn import *
 
 vaults = ['vault1.momandpopsflags.ca', 'vault2.momandpopsflags.ca', 'vault3.momandpopsflags.ca']
 
-r = remote(vaults[2], 5555)
+r = remote(vaults[0], 5555)
 res = r.recvline()
 
 r.sendline(b'INITIALIZE CONNECTION')
