@@ -1,0 +1,5 @@
+- length of password has to be 8
+
+
+- Change each of the puts to NOPS first, then run to test that's the one getting hit
+- Then change each of the jumps to NOPS
