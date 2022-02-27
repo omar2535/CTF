@@ -1,0 +1,13 @@
+
+# For the malloc
+break *main+198
+break *main+254
+
+# For the password comparison
+break *main+356
+
+
+MALLOC MEMORY AT: 0x4056b0
+0x4056b0:       0x00000000      0x00000000      0x4872636e      0x00686272
+
+
