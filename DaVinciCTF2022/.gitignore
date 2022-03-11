@@ -1,0 +1,7 @@
+*.jar
+*.zip
+*.restore
+
+META-INF/
+fr/
+deobfuscator/

@@ -1,0 +1,3 @@
+sudo diff --line-format=%L /dev/null /home/root/flag.txt
+
+CAP_CHOWN
