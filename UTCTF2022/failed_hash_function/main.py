@@ -4,17 +4,20 @@ import sys, os
 def trailing(x):
     a = 0
     for _ in range(15):
-        if x & 1:
+        if x & 1: # if last bit of x is 1
             break
         x >>= 1
         a += 1
     return a
 
 def print_hash(s):
+    generated_hash = ""
     for x in s:
         for y in s:
-            print(hex(trailing((k1 ^ x) * (k2 ^ y)))[2:], end='')
-    print()
+            # print(hex(trailing((k1 ^ x) * (k2 ^ y)))[2:], end='')
+            generated_hash += hex(trailing((k1 ^ x) * (k2 ^ y)))[2:]
+            print(f"x: {x}, y: {y}")
+    print(f"\nGenerated hash: {generated_hash}\n")
 
 for num in range(1,101):
     print('Challenge', num)

@@ -11,3 +11,11 @@ snyk2021/*.gif
 .DS_Store
 *bzImage
 *.pyc
+.gdb_history
+flag.txt
+pattern.txt
+peda-session-vuln.txt
+vuln
+smol
+node_modules/
+input.txt
