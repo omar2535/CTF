@@ -3,3 +3,4 @@ payload.txt
 live-art/
 *.tar
 peda-session*
+vuln.exe
