@@ -1,1 +1,5 @@
 payload
+payload.txt
+live-art/
+*.tar
+peda-session*
