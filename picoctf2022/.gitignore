@@ -4,3 +4,4 @@ live-art/
 *.tar
 peda-session*
 vuln.exe
+pin_checker
