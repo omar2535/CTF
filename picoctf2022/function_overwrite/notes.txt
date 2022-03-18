@@ -1,0 +1,22 @@
+break *0x080495ed
+
+
+-16: check_addr <hard_checker>
+...
+-2: 0x804c078
+-1: 0x804c07C
+0: 0x804C080
+
+
+
+0x080492fc  easy_checker
+0x08049436  hard_checker
+
+
+so first digit is -16
+second digit is -314
+
+
+
+Story needs to be 1337, which is 1337 - (122 * 10) = 117
+So 10*z and 1*u
