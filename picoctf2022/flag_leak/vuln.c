@@ -29,9 +29,19 @@ void vuln(){
    printf("Tell me a story and then I'll tell you one >> ");
    scanf("%127s", story);
    printf("Here's a story - \n");
+   // printf("hello")
    printf(story);
    printf("\n");
 }
+
+
+/*
+&flag            n - %s
+story            j - %x
+ret address
+ebp
+printf stuff idk 1 - %x
+*/
 
 int main(int argc, char **argv){
 

@@ -1,0 +1,3 @@
+Key needs to be 36 characters long
+
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
