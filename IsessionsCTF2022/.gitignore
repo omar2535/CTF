@@ -1,0 +1,14 @@
+*.zip
+*.db
+*.bak
+*.jpg
+*.gzf
+BananaOverflow2
+BananaOverflow
+BananaOverflow3
+filegen
+InPlainSight
+hash
+*b64
+shadow
+*.gzip

@@ -1,0 +1,5 @@
+FLAG-PART-1: monkeyCT
+FLAG-PART-2: F{scav
+FLAG-PART-3: enger_
+FLAG-PART-4=hunt_
+FLAG-PART-5: good_job}

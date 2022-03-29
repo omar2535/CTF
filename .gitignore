@@ -19,3 +19,6 @@ vuln
 smol
 node_modules/
 input.txt
+
+*.gdb_history
+*pycache*

@@ -1,0 +1,1 @@
+hash('tiger160,4', $_POST['password'], false)
