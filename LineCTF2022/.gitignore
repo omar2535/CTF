@@ -1,0 +1,7 @@
+flag
+main
+trust_code
+vmlinux
+*.ext4
+extract-vmlinux
+*.ko
