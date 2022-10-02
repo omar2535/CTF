@@ -1,0 +1,18 @@
+# Nmap 7.92 scan initiated Fri Sep 30 15:54:42 2022 as: nmap -sC -sV -oA algoserver borpa-box.ctf.sekai.team
+Nmap scan report for borpa-box.ctf.sekai.team (138.68.64.76)
+Host is up (0.15s latency).
+Other addresses for borpa-box.ctf.sekai.team (not scanned): 164.92.239.134 207.154.216.218
+Not shown: 998 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 c8:37:cf:53:05:11:1b:d5:e2:48:da:f5:60:55:18:2c (RSA)
+|   256 70:4f:9d:e6:0c:f0:03:a6:50:b4:dc:32:c7:ba:89:5e (ECDSA)
+|_  256 d3:43:d4:e5:2e:2a:96:2b:1d:e8:d0:3f:66:65:87:9a (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-title: Sekai Blog
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Sep 30 15:55:12 2022 -- 1 IP address (1 host up) scanned in 29.93 seconds

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Fri Sep 30 16:03:44 2022 as: nmap -vv -&#45;reason -Pn -T4 -sV -p 80 &quot;-&#45;script=banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)&quot; -oN /home/omar2535/Desktop/programming/CTF/SekaiCTF2022/results/164.92.239.134/scans/tcp80/tcp_80_http_nmap.txt -oX /home/omar2535/Desktop/programming/CTF/SekaiCTF2022/results/164.92.239.134/scans/tcp80/xml/tcp_80_http_nmap.xml 164.92.239.134 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -T4 -sV -p 80 &quot;-&#45;script=banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)&quot; -oN /home/omar2535/Desktop/programming/CTF/SekaiCTF2022/results/164.92.239.134/scans/tcp80/tcp_80_http_nmap.txt -oX /home/omar2535/Desktop/programming/CTF/SekaiCTF2022/results/164.92.239.134/scans/tcp80/xml/tcp_80_http_nmap.xml 164.92.239.134" start="1664579024" startstr="Fri Sep 30 16:03:44 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="80"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1664579024"/>
+<taskend task="NSE" time="1664579024"/>
+<taskbegin task="NSE" time="1664579024"/>
+<taskend task="NSE" time="1664579024"/>
+<taskbegin task="NSE" time="1664579024"/>
+<taskend task="NSE" time="1664579024"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1664579024"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1664579024"/>
+<taskbegin task="Connect Scan" time="1664579024"/>
+<taskend task="Connect Scan" time="1664579025" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1664579025"/>
+<taskend task="Service scan" time="1664579031" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1664579031"/>
+<taskend task="NSE" time="1664579058"/>
+<taskbegin task="NSE" time="1664579058"/>
+<taskend task="NSE" time="1664579059"/>
+<taskbegin task="NSE" time="1664579059"/>
+<taskend task="NSE" time="1664579059"/>
+<host starttime="1664579024" endtime="1664579059"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="164.92.239.134" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.41" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.41</cpe></service><script id="http-jsonp-detection" output="Couldn&apos;t find any JSONP endpoints."/><script id="http-mobileversion-checker" output="No mobile version detected."/><script id="http-referer-checker" output="Couldn&apos;t find any cross-domain scripts."/><script id="http-security-headers" output=""></script><script id="http-wordpress-enum" output="Nothing found amongst the top 100 resources,use -&#45;script-args search-limit=&lt;number|all&gt; for deeper analysis)"/><script id="http-vhosts" output="&#xa;128 names had status 200"/><script id="http-feed" output="Couldn&apos;t find any feeds."/><script id="http-drupal-enum" output="Nothing found amongst the top 100 resources,use -&#45;script-args number=&lt;number|all&gt; for deeper analysis)"/><script id="http-malware-host" output="Host appears to be clean"/><script id="http-fetch" output="Please enter the complete path of the directory to save data in."><elem key="ERROR">Please enter the complete path of the directory to save data in.</elem>
+</script><script id="http-sitemap-generator" output="&#xa;  Directory structure:&#xa;    /&#xa;      Other: 1; css: 1; js: 1&#xa;  Longest directory structure:&#xa;    Depth: 0&#xa;    Dir: /&#xa;  Total files found (by extension):&#xa;    Other: 1; css: 1; js: 1&#xa;"/><script id="http-errors" output="Couldn&apos;t find any error pages."/><script id="http-useragent-tester" output="&#xa;  Status for browser useragent: 200&#xa;  Allowed User Agents: &#xa;    Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)&#xa;    libwww&#xa;    lwp-trivial&#xa;    libcurl-agent/1.0&#xa;    PHP/&#xa;    Python-urllib/2.5&#xa;    GT::WWW&#xa;    Snoopy&#xa;    MFC_Tear_Sample&#xa;    HTTP::Lite&#xa;    PHPCrawl&#xa;    URI::Fetch&#xa;    Zend_Http_Client&#xa;    http client&#xa;    PECL::HTTP&#xa;    Wget/1.13.4 (linux-gnu)&#xa;    WWW-Mechanize/1.34"><elem key="Status for browser useragent">200</elem>
+<table key="Allowed User Agents">
+<elem>Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)</elem>
+<elem>libwww</elem>
+<elem>lwp-trivial</elem>
+<elem>libcurl-agent/1.0</elem>
+<elem>PHP/</elem>
+<elem>Python-urllib/2.5</elem>
+<elem>GT::WWW</elem>
+<elem>Snoopy</elem>
+<elem>MFC_Tear_Sample</elem>
+<elem>HTTP::Lite</elem>
+<elem>PHPCrawl</elem>
+<elem>URI::Fetch</elem>
+<elem>Zend_Http_Client</elem>
+<elem>http client</elem>
+<elem>PECL::HTTP</elem>
+<elem>Wget/1.13.4 (linux-gnu)</elem>
+<elem>WWW-Mechanize/1.34</elem>
+</table>
+</script><script id="http-chrono" output="Request times for /; avg: 415.54ms; min: 382.45ms; max: 467.89ms"/><script id="http-comments-displayer" output="&#xa;Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=164.92.239.134&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 110&#xa;    Comment: &#xa;        /**&#xa;         * Flex Grid&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 87&#xa;    Comment: &#xa;        /**&#xa;         * Text Selection&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 113&#xa;    Comment: &#xa;        /**&#xa;         * Box Shadow&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 495&#xa;    Comment: &#xa;        /**&#xa;         * Color Helpers&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 4&#xa;    Comment: &#xa;        /**&#xa;         * Base Settings/Overwrite Normalize&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 116&#xa;    Comment: &#xa;        /**&#xa;         * Letter Spacing&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 139&#xa;    Comment: &#xa;        /**&#xa;         * Body&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/&#xa;    Line number: 12&#xa;    Comment: &#xa;        &lt;!-&#45; partial:index.partial.html -&#45;&gt;&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 146&#xa;    Comment: &#xa;        /**&#xa;         * Sections&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 481&#xa;    Comment: &#xa;        /**&#xa;         * Absolute Background Cover&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/&#xa;    Line number: 148&#xa;    Comment: &#xa;        &lt;!-&#45; partial -&#45;&gt;&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 171&#xa;    Comment: &#xa;        /**&#xa;         * Blog page&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 125&#xa;    Comment: &#xa;        /**&#xa;         * Black Color Overlay&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 203&#xa;    Comment: &#xa;        /**&#xa;         * Tabs&#xa;         * On the Blog page for posts and categories&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 411&#xa;    Comment: &#xa;        /**&#xa;         * Footer&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 1&#xa;    Comment: &#xa;        /**&#xa;         * Base Variables&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 325&#xa;    Comment: &#xa;        /**&#xa;         * Category Card&#xa;         * On the blog page under category tab&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 253&#xa;    Comment: &#xa;        /**&#xa;         * Blog Post Preview&#xa;         * On the Blog page&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 101&#xa;    Comment: &#xa;        /**&#xa;         * Underline Slide from left and back&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 456&#xa;    Comment: &#xa;        /**&#xa;         * Animations&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 163&#xa;    Comment: &#xa;        /**&#xa;         * Class Container (BEM)&#xa;         */&#xa;    &#xa;    Path: http://164.92.239.134:80/style.css&#xa;    Line number: 104&#xa;    Comment: &#xa;        /**&#xa;         * Button Slide&#xa;         * Need to still add hover state in parent element&#xa;         * box-shadow: inset 175px 0 0 0 $color-alpha;&#xa;         * color: $color-white;&#xa;         */&#xa;"/><script id="http-php-version" output="Logo query returned unknown hash 39207259befdf69b8617aa2df7e8a354&#xa;Credits query returned unknown hash 39207259befdf69b8617aa2df7e8a354"/><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script><script id="http-stored-xss" output="Couldn&apos;t find any stored XSS vulnerabilities."/><script id="http-methods" output="&#xa;  Supported Methods: GET POST OPTIONS HEAD"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+<elem>HEAD</elem>
+</table>
+</script><script id="http-csrf" output="Couldn&apos;t find any CSRF vulnerabilities."/><script id="http-date" output="Fri, 30 Sep 2022 23:03:57 GMT; 0s from local time."><elem key="date">2022-09-30T23:03:57+00:00</elem>
+<elem key="delta">0.0</elem>
+</script><script id="http-dombased-xss" output="Couldn&apos;t find any DOM based XSS."/><script id="http-config-backup" output="ERROR: Script execution failed (use -d to debug)"/><script id="http-wordpress-users" output="[Error] Wordpress installation was not found. We couldn&apos;t find wp-login.php"/><script id="http-headers" output="&#xa;  Date: Fri, 30 Sep 2022 23:03:54 GMT&#xa;  Server: Apache/2.4.41 (Ubuntu)&#xa;  Last-Modified: Sun, 28 Aug 2022 08:31:28 GMT&#xa;  ETag: &quot;1d48-5e748f931b800&quot;&#xa;  Accept-Ranges: bytes&#xa;  Content-Length: 7496&#xa;  Vary: Accept-Encoding&#xa;  Connection: close&#xa;  Content-Type: text/html&#xa;  &#xa;  (Request type: HEAD)&#xa;"/><script id="http-litespeed-sourcecode-download" output="Request with null byte did not work. This web server might not be vulnerable"/><script id="http-devframework" output="Couldn&apos;t determine the underlying framework or CMS. Try increasing &apos;httpspider.maxpagecount&apos; value to spider more pages."/><script id="http-title" output="Sekai Blog"><elem key="title">Sekai Blog</elem>
+</script></port>
+</ports>
+<times srtt="158870" rttvar="158870" to="794350"/>
+</host>
+<taskbegin task="NSE" time="1664579059"/>
+<taskend task="NSE" time="1664579059"/>
+<taskbegin task="NSE" time="1664579059"/>
+<taskend task="NSE" time="1664579059"/>
+<taskbegin task="NSE" time="1664579059"/>
+<taskend task="NSE" time="1664579059"/>
+<runstats><finished time="1664579059" timestr="Fri Sep 30 16:04:19 2022" summary="Nmap done at Fri Sep 30 16:04:19 2022; 1 IP address (1 host up) scanned in 34.57 seconds" elapsed="34.57" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

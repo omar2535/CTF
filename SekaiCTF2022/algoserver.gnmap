@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Fri Sep 30 15:54:42 2022 as: nmap -sC -sV -oA algoserver borpa-box.ctf.sekai.team
+Host: 138.68.64.76 ()	Status: Up
+Host: 138.68.64.76 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/	Ignored State: filtered (998)
+# Nmap done at Fri Sep 30 15:55:12 2022 -- 1 IP address (1 host up) scanned in 29.93 seconds
