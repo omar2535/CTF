@@ -4,6 +4,17 @@
 #include <stdlib.h>
 
 
+<<<<<<< Updated upstream
+=======
+
+// 
+
+
+// [uid, username]   - [uid, username]
+
+
+
+>>>>>>> Stashed changes
 #define NUM_USERS 0x8
 #define USERNAME_LEN 0x18
 #define ADMIN_UID 0x1337
@@ -53,7 +64,10 @@ void menu() {
 }
 
 void add_user() {
+<<<<<<< Updated upstream
     printf("Current user ID 0x%x\n", curr_user_id);
+=======
+>>>>>>> Stashed changes
     user_t user = (user_t) malloc(sizeof(user_t));
     users[curr_user_id++ - ADMIN_UID] = user;
 
@@ -69,8 +83,19 @@ void add_user() {
     }
     printf("Username: ");
     read_n_delimited(user->username, len, '\n');
+<<<<<<< Updated upstream
 
     printf("Current user ID 0x%x\n", curr_user_id);
+=======
+}
+
+void print_users() {
+    for(int i = 0; i < NUM_USERS; i++) {
+        if(users[i] != NULL) {
+            printf("%d, UID: 0x%x, Username: %s \n", i, users[i]->uid, users[i]->username);
+        }
+    }
+>>>>>>> Stashed changes
 }
 
 void login() {
@@ -79,6 +104,12 @@ void login() {
     char username[USERNAME_LEN];
     printf("Username: ");
     read_n_delimited(username, USERNAME_LEN, '\n');
+<<<<<<< Updated upstream
+=======
+
+    print_users();
+
+>>>>>>> Stashed changes
     for(int i = 0; i < NUM_USERS; i++) {
         if(users[i] != NULL) {
             if(strncmp(users[i]->username, username, USERNAME_LEN) == 0) {
@@ -98,7 +129,10 @@ void login() {
     }
 }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 int main() {
     init();
 
